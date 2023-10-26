@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(17,17,17);
+    opacity: 90%;
+    color:white;
+    min-height:100vh;
+}
+
+.main-container{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.show-actions button{
+    font-size: 1.5em;
+    font-weight: 600;
+    border-radius: 2em;
+    background-color: #DC661E;
+    border-color: #DC661E;
+    transition: transform 0.1s ease-in;
+}
+.show-actions button:hover{
+    background-color: #DC661E;
+    border-color: #DC661E;
+    transform: scale(1.05);
+}
+
+.show-actions button:active{
+    background-color: #DC661E;
+    border-color: #DC661E;
+    transform: scale(1.05);
+}
+
+.my-sidebar{
+    background-color: rgb(27,27,27);
+    min-height: 100vh;
+}
+
+.main-part{
+    min-height: 100vh;
+
+}
+
+.my-todo-list{
+    border:2px solid white;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px rgba(255, 255, 255, 0.3);
+}
+
+.my-todo-list li{
+    background-color: rgb(58,58,58);
+    font-size: 1.6em;
+    line-height: 20px;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+  
+
+}
+.todo-text{
+    width:100%;
+  padding-top: 10px;
+}
+
+
+.my-todo-list li:nth-child(odd) {
+    background-color: rgb(255,220,183);
+    color: black; 
+  }
+  
+  .my-todo-list li:nth-child(even) {
+    background-color: #FFF2E2;
+    color: black 
+  }
+
+.button-group button{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.my-save{
+    border-radius: 20px;
+}
+#openExisting{
+    background-color: rgb(66, 138, 138);
+    border-color: rgb(66, 138, 138);
+}
